@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sketch2Image — Phase 1: Air Canvas
 
 Gesture-based air drawing using a webcam and MediaPipe hand tracking.
@@ -72,3 +73,7 @@ trigger the action repeatedly.
   `hand_tracker.py` never draws, `gestures.py` never touches OpenCV
   drawing calls, and `air_canvas.py` never touches MediaPipe. This
   keeps it ready to extend in Phase 2 without refactoring.
+=======
+# air-gesture-image-generator
+Draw in the air using hand gestures and transform rough sketches into realistic AI-generated images using MediaPipe, OpenCV, ControlNet, and Stable Diffusion.
+>>>>>>> 7bc04e7e78015e14fc0b754b8d9faacd50dfd52e
